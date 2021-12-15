@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="46.974">
+<testcase classname="Gmail compose and send mail feature" name="Test compose button" time="19.745">
+<system-out><![CDATA[Given User launches the browser.............................................passed
+When User opens the gmail login page........................................passed
+Then User login to gmail with username "sampletestproject80@gmail.com"......passed
+And password "testproject@80"...............................................passed
+And User clicks on the compose button.......................................passed
+Then Check the New Message box appears......................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Gmail compose and send mail feature" name="Test send mail" time="26.947">
+<system-out><![CDATA[Given User launches the browser.............................................passed
+When User opens the gmail login page........................................passed
+Then User login to gmail with username "sampletestproject80@gmail.com"......passed
+And password "testproject@80"...............................................passed
+And User clicks on the compose button.......................................passed
+Then User composes mail with To "sampletestproject80@gmail.com" Subject "Incubyte" Body "Automation QA test for Incubyte".passed
+And clicks Send.............................................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
